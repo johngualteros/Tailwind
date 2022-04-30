@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title{
+    @apply mt-12 text-2xl font-bold;
+}
+.paragraph{
+    @apply mt-2 text-xl font-semibold;
+}
+.list{
+    @apply inline-block mr-5 text-xl font-bold border-b-2 border-gray-500 cursor-pointer;
+}
